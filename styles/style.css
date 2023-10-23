@@ -68,7 +68,7 @@ figure {
 }
 
 .content__link {
-  color: currentcolor;
+  color: var(--text-color, #312a4e);
 }
 
 .content__blockquote {
