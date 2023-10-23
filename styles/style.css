@@ -15,9 +15,9 @@
 .page {
   min-inline-size: 360px;
   margin: 0;
-  color: var(--text-color, #000);
+  color: var(--text-color, #312a4e);
   font-family: var(--main-font, sans-serif);
-  background-color: var(--bg-color, #fff);
+  background-color: var(--bg-color, #f3efec);
 }
 
 p,
@@ -116,13 +116,13 @@ figure {
   padding: 0 4px;
   font-weight: 700;
   font-size: 30px;
-  background-color: var(--accent-color);
+  background-color: var(--accent-color, #ffab6b);
 }
 
 .theme_dark
   .content__text-block_type_first-lettered
   > .content__paragraph:first-child::first-letter {
-  border: 1px solid var(--text-color);
+  border: 1px solid var(--text-color, #312a4e);
 }
 
 .content__picture {
@@ -137,7 +137,7 @@ figure {
 }
 
 .content__picture-caption {
-  border-block-end: 1px solid var(--text-color);
+  border-block-end: 1px solid var(--text-color, #312a4e);
   padding: 20px 0;
   font-size: 18px;
   text-align: center;
@@ -153,7 +153,7 @@ figure {
   justify-content: center;
   align-items: center;
   margin-block-start: 7%;
-  border: 1px solid var(--text-color);
+  border: 1px solid var(--text-color, #312a4e);
   aspect-ratio: 4 / 3;
 }
 
@@ -173,7 +173,7 @@ figure {
   display: block;
   inline-size: 103%;
   block-size: 0.3em;
-  background-color: var(--accent-color);
+  background-color: var(--accent-color, #ffab6b);
   inset-block-end: 10px;
   inset-inline-end: -3px;
 }
@@ -191,7 +191,7 @@ figure {
 
 .header__theme-button {
   border: none;
-  color: var(--text-color);
+  color: var(--text-color, #312a4e);
   font-family: inherit;
   font-size: 18px;
   line-height: 1.04;
@@ -207,8 +207,8 @@ figure {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-block-start: 1px solid var(--text-color);
-  border-block-end: 1px solid var(--text-color);
+  border-block-start: 1px solid var(--text-color, #312a4e);
+  border-block-end: 1px solid var(--text-color, #312a4e);
   padding-block-start: 20px;
   padding-block-end: 20px;
 }
@@ -229,7 +229,7 @@ figure {
   display: block;
   inline-size: 105%;
   block-size: 0.5em;
-  background-color: var(--accent-color);
+  background-color: var(--accent-color, #ffab6b);
   inset-block-end: 2px;
   inset-inline-end: -3px;
 }
@@ -245,7 +245,7 @@ button:focus {
 
 a:focus-visible,
 button:focus-visible {
-  outline: 1px solid var(--text-color);
+  outline: 1px solid var(--text-color, #312a4e);
 }
 
 .header__theme-button[disabled] {
@@ -254,7 +254,7 @@ button:focus-visible {
 
 .footer__copyright {
   margin-block-start: 10%;
-  border-block-start: 1px solid var(--text-color);
+  border-block-start: 1px solid var(--text-color, #312a4e);
   padding: 2.5% 0;
   font-size: 18px;
   text-align: center;
